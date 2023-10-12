@@ -1,3 +1,5 @@
+navigator.serviceWorker.register('/swpwa/service-worker.js', { scope: '/swpwa/' });
+
 // Define the files to cache
 const CACHE_NAME = 'v1';
 
